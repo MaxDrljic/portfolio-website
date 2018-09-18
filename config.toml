@@ -1,6 +1,6 @@
 languageCode = "en-us"
 title = "Max Drljic's Portfolio"
-baseurl = "http://example.org/"
+baseurl = "https://maxdrljic.github.io/portfolio-website/"
 theme = "prologue-my-portfolio"
 publishDir = "docs"
 
