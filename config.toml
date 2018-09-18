@@ -1,0 +1,79 @@
+languageCode = "en-us"
+title = "Max Drljic's Portfolio"
+baseurl = "http://example.org/"
+theme = "prologue-my-portfolio"
+publishDir = "docs"
+
+[params]
+  name = "Max Drljic"
+  description = "Full-Stack Web Developer"
+  copyright = "Max Drljic's Portfolio"
+
+[[params.social]]
+  medium = "github"
+  icon = "github"
+  link = "https://github.com/MaxDrljic"
+
+[[params.social]]
+  medium = "linkedin"
+  icon = "linkedin"
+  link = "https://www.linkedin.com/in/max-drlji%C4%87-003378140/"
+
+[[params.social]]
+  medium = "email"
+  icon = "envelope"
+  link = "#contact"
+
+# Portfolio column one
+
+[[params.portfolio1]]
+  title = "Angular - Amazon Recreation"
+  alt = "angular-portfolio"
+  source = "img/angular-portfolio.jpg"
+  url = "img/angular-portfolio.jpg"
+  datatitle="Angular - Amazon Recreation"
+  datafooter="Angular application created with the same functionality as the Amazon website."
+
+[[params.portfolio1]]
+  title = "WordPress Development"
+  alt = "wordpress-portfolio"
+  source = "img/wordpress-apartmani-portfolio.jpg"
+  url = "img/wordpress-apartmani-portfolio.jpg"
+  datatitle="WordPress Development"
+  datafooter="Website for apartments focused on design and booking functionality."
+
+# Portfolio column two
+
+[[params.portfolio2]]
+  title = "React - Image Finder / Gallery"
+  alt = "react-portfolio"
+  source = "img/react-portfolio.jpg"
+  url = "img/react-portfolio.jpg"
+  datatitle="React - Image Finder / Gallery"
+  datafooter="Simple search application which uses external API to find images and show them on the front-end."
+
+[[params.portfolio2]]
+  title = "Laravel - Restaurant Lightweight CMS"
+  alt = "laravel-portfolio"
+  source = "img/laravel-portfolio.jpg"
+  url = "img/laravel-portfolio.jpg"
+  datatitle="Laravel - Restaurant Lightweight CMS"
+  datafooter="Full CRUD operations, authentication, admin panel and everything for a good restaurant CMS."
+
+# Portfolio column 3
+
+[[params.portfolio3]]
+  title = "Custom Dashboard - Material Design"
+  alt = "dashboard"
+  source = "img/dashboard.jpg"
+  url = "img/dashboard.jpg"
+  datatitle="Custom Dashboard - Material Design"
+  datafooter="Admin dashboard area for Restaurant CMS created with Material library."
+
+[[params.portfolio3]]
+  title = "Vue / Vuex / Nuxt - Small Blogging System"
+  alt = "vue-portfolio"
+  source = "img/nuxt-storyblok-blogging-portfolio.jpg"
+  url = "img/nuxt-storyblok-blogging-portfolio.jpg"
+  datatitle="Vue / Vuex / Nuxt - Small Blogging System"
+  datafooter="Simple blogging system made with my favorite JavaScript framework, the VueJS!"
